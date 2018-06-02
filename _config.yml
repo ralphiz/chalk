@@ -12,7 +12,7 @@ baseurl: /chalk
 discus_identifier: # Add your Disqus identifier
 ga_analytics: # Add your GA Tracking Id
 local_fonts: false # Change to true if you wish to use local fonts
-rss_enabled: true # Change to false if not
+rss_enabled: false # Change to false if not
 scrollappear_enabled: true # Change to false to disable
 social:
   dribbble: # Add your Dribbble handle
@@ -21,7 +21,7 @@ social:
   github: ralphiz
   linkedin: ralphcacho
   twitter: ralphiz
-  email: cacho.rc@outlook.com
+  email:
   bitcoin: # Add your Bitcoin link or address
   ethereum: # Add your Ethereum link or address
   gitlab: # Add your GitLab handle
