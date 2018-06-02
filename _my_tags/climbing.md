@@ -1,0 +1,4 @@
+---
+slug: climbing
+name: Climbing
+---
