@@ -3,12 +3,12 @@
 blog_theme: light # Or use dark
 name: Chalk
 paginate: 15
-url: # add your site url (format: https://example.com)
+url: ralphiz.github.io
 
 # Optional settings
 
 about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
-baseurl: # Set if blog doesn't sit at the root of the domain (format: /blog)
+baseurl: /chalk
 discus_identifier: # Add your Disqus identifier
 ga_analytics: # Add your GA Tracking Id
 local_fonts: false # Change to true if you wish to use local fonts
