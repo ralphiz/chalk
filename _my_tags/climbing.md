@@ -1,4 +1,0 @@
----
-slug: climbing
-name: Climbing
----

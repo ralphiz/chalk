@@ -1,20 +1,50 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Chalk</title>
+    <description></description>
+    <link>ralphiz.github.io</link>
+    <atom:link href="ralphiz.github.io/chalk/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>No pre-workout on a Monday</title>
+        <description>Felt super tired but pushed through it</description>
+        <pubDate>Mon, 04 Jun 2018 00:00:00 -0700</pubDate>
+        <link>ralphiz.github.io/chalk/posts/no-preworkout-on-a-monday</link>
+        <guid isPermaLink="true">ralphiz.github.io/chalk/posts/no-preworkout-on-a-monday</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>A crowded Sunday</title>
+        <description>Found another v6 to work on</description>
+        <pubDate>Sun, 03 Jun 2018 00:00:00 -0700</pubDate>
+        <link>ralphiz.github.io/chalk/posts/a-crowded-sunday</link>
+        <guid isPermaLink="true">ralphiz.github.io/chalk/posts/a-crowded-sunday</guid>
+      </item>
+    
+      <item>
+        <title>Another good morning session</title>
+        <description>Getting climbing tips from J.Lau.</description>
+        <pubDate>Fri, 01 Jun 2018 00:00:00 -0700</pubDate>
+        <link>ralphiz.github.io/chalk/posts/another-good-morning-session</link>
+        <guid isPermaLink="true">ralphiz.github.io/chalk/posts/another-good-morning-session</guid>
+      </item>
+    
+      <item>
+        <title>Finished a v5</title>
+        <description>A morning session with good results.</description>
+        <pubDate>Wed, 30 May 2018 00:00:00 -0700</pubDate>
+        <link>ralphiz.github.io/chalk/posts/finished-a-v5</link>
+        <guid isPermaLink="true">ralphiz.github.io/chalk/posts/finished-a-v5</guid>
+      </item>
+    
+      <item>
+        <title>Climbing with friends on Memorial Day</title>
+        <description>A day off means a long day of climbing at the gym with friends!</description>
+        <pubDate>Mon, 28 May 2018 00:00:00 -0700</pubDate>
+        <link>ralphiz.github.io/chalk/posts/memorial-day</link>
+        <guid isPermaLink="true">ralphiz.github.io/chalk/posts/memorial-day</guid>
+      </item>
+    
   </channel>
 </rss>
